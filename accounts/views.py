@@ -3,7 +3,7 @@ from django.contrib.auth import login, logout,authenticate
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.shortcuts import render, redirect
 
-from .form import SignupForm
+from .forms import SignupForm
 
 
 def signup_view(request):
